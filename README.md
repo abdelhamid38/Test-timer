@@ -5,4 +5,4 @@
 ### :camera: Screenshot
 Console (app)          |
 :---------------------:|
-![Console](Android app.jpg) |
+![Console](Android.jpg) |
