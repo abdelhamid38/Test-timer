@@ -27,43 +27,59 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="86dp"
                 android:layout_marginRight="10dp"
                 android:layout_weight="0"
-                android:background="@drawable/note_time"
+                android:background="@drawable/icon"
                 tools:srcCompat="@tools:sample/avatars" />
 
-            <TextView
-                android:id="@+id/Module"
-                android:layout_width="214dp"
-                android:layout_height="match_parent"
-                android:fontFamily="casual"
-                android:text="TextView"
-                android:textColor="#000000"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/Time"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:fontFamily="casual"
-                android:text="TextView"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="30sp"
-                android:textStyle="bold" />
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Module"
+                        android:layout_width="214dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="serif"
+                        android:text="TextView"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Time"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Teacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:fontFamily="serif"
+                    android:text="TextView"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
         </LinearLayout>
-
-        <TextView
-            android:id="@+id/Teacher"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:fontFamily="casual"
-            android:text="TextView"
-            android:textSize="18sp" />
 
     </LinearLayout>
 
